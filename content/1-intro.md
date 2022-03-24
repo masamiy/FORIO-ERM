@@ -8,7 +8,7 @@ nav: Intro
 FOLIO ERM is to manage your eResrouces effectively. It consists of Organisations, Licenses, Agreements and eHoldings apps.
 
 ## How they are connected
-{% include figure.html img="From_data_to_knowledge.jpg" alt="cat" caption="From data to Knowledge" width="80%" %}
+{% include figure.html img="Lisa Apps link.png" alt="cat" caption="Data link" width="80%" %}
 
 
 If a story is brought together by your data, visuals and narratives- let’s start by looking at your data.  
