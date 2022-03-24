@@ -3,35 +3,32 @@ title: Introduction
 nav: Intro
 ---
 
-`workshop-template-b` is a Jekyll project to create a simple workshop website, with a [Bootstrap](https://getbootstrap.com/)-based theme, designed for hosting on [GitHub Pages](https://pages.github.com/).
+{% include figure.html img="Data_Narrative_Visuals.png" alt="cat" caption="Data, Narrative and visuals - Essential to data storytelling" width="70%" %}
 
-It works best for about 5 pages of instructions, plus index, all written in Markdown. 
-The navigation to the main pages is exposed at top and bottom of each page for easy stepping through the lessons.
+FOLIO ERM is to manage your eResrouces effectively. It consists of Organisations, Licenses, Agreements and eHoldings apps.
 
-### Why?
+## How they are connected
+{% include figure.html img="From_data_to_knowledge.jpg" alt="cat" caption="From data to Knowledge" width="80%" %}
 
-Rather than making slides for a workshop, why not make a website? 
-It's easier to write, access, share, and reuse. 
-GitHub and GitHub Pages makes this pretty easy.
 
-It is a better [Open Educational Resource](https://en.wikipedia.org/wiki/Open_educational_resources) since anyone can make a copy and adapt!
+If a story is brought together by your data, visuals and narratives- let’s start by looking at your data.  
 
-## GitHub Pages 
+Data is the basis of your research, where you derive your insights.  
 
-One amazingly useful GitHub feature is [GitHub Pages](https://guides.github.com/features/pages/).
-It provides free static web hosting from any repository.
-Gh-pages is intended to host relatively simple sites for your GitHub portfolio, project, or documentation.
-Because it is free and a valuable transferable skill, this is a great option for teaching and learning.
+Data starts off as numbers and letters but by exploring the relationships between your data, you create information.  
 
-Many organizations are using GitHub to collaboratively create and publish public workshop websites. 
-For example: 
+This information is great, but you need to explain what this information means .. creating Knowledge.  
 
-- [Programming Historian](http://programminghistorian.org/)
-- [Software Carpentry](https://software-carpentry.org/), [Data Carpentry](http://www.datacarpentry.org/), [Library Carpentry](https://librarycarpentry.org/)
-- this site!
+This knowledge is what we want to share with people. 
 
-{% capture text %}Note:
-There are *soft* limits and guidelines for gh-pages usage: sites should be < 1GB, use < 100GB bandwidth per month, and make < 10 builds per hour.
-If your site exceeds these quotas, GitHub will send you a notice asking you to modify the repository.
-All content must follow the [community guidelines](https://help.github.com/articles/github-community-guidelines/), e.g. no violence, obscene sex, or illegal stuff.{% endcapture %}
-{% include alert.html text=text color=secondary %}
+### Activity - Gapminder
+
+I want you to watch this 4 minutes' [Gapminder video](https://youtu.be/jbkSRLYSojo) and see how Hans Rosling's narrative enhances your understanding about data presented with a visual. 
+{% include video-embed.html youtubeid="jbkSRLYSojo" caption="Gapminder" %}
+
+
+Do you think you would feel the same excitement if he presented his finding in a data file, e.g., Microsoft Excel sheet?
+{% include figure.html img="Gapminder-data.png" alt="cat" caption="Gapminder data from World Bank via Gapminder.org, CC-BY LICENSE" width="70%" %}
+
+
+We start exploring how we can start telling a story from the [next section](https://masamiy.github.io/content/1-Start_telling_story.html).
